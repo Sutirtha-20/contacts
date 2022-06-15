@@ -17,7 +17,7 @@ public class MyConfig extends WebSecurityConfigurerAdapter{
 	@Bean
 	public UserDetailsService getUserDetailsService()
 	{
-		return new UserDetailsServiceImpl();
+		return new UserDetailsServiceImpl();;
 	}
 	
 	@Bean
